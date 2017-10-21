@@ -1,3 +1,3 @@
-module.exports = function(width, height) {
-    return width * height
-}
+// index.js
+
+require('./app/index')

@@ -2,8 +2,9 @@
   "name": "node_work1",
   "version": "1.0.0",
   "description": "First training project",
-  "main": "helloworld.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/dynamark/node_work1#readme",
   "devDependencies": {
+    "lodash": "^4.17.4",
     "standard": "^10.0.3"
   }
 }
